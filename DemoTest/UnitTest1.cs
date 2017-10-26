@@ -46,5 +46,15 @@ namespace DemoTest
 
             Assert.AreEqual(expectedResult, result);
         }
+
+        [TestMethod]
+        public void TestMultiply3()
+        {
+            var demo = new Demo();
+            var result = demo.Multiply(20, 30);
+            var expectedResult = 600;
+
+            Assert.AreEqual(expectedResult, result);
+        }
     }
 }
