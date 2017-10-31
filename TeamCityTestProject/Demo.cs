@@ -16,7 +16,7 @@ namespace TeamCityTestProject
 
         public double Multiply(int firstNumber, int secondNumber)
         {
-            return firstNumber * secondNumber;
+            return firstNumber - secondNumber;
         }
     }
 }
